@@ -1,0 +1,57 @@
+body
+{
+    background-color: #3a0210;
+    font-family: 'Trecbuchet  MS', sans-sarif;
+    margin:0;/*reamoves default margin*/
+    padding:0;
+}
+#container
+{
+    width: 60%;
+    margin: 10px auto;
+    border: 3px solid #8b22a8;
+    background-color: #fcfcfc;
+    padding: 100px;
+    box-shadow: 0 0 10px #cd481b;
+}
+#header 
+{
+    text-align: center;
+    border-bottom: 2px solid #4e051b;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.subtitle
+{
+    color: #580a17;
+    font-style: italic;
+}
+#main
+{
+    display: flex;
+}
+#sidebar
+{
+    width: 25%;
+    background-color: #bd8585;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+#content
+{
+    width: 70%;
+    margin-left: 5%;
+}
+.post
+{
+    margin-bottom: 15px;
+    border: 2px solid #570e0e;
+    background-color: #bd8585;
+    padding: 15px;
+    border-radius: 8px;
+}
+.post h3
+{
+   color: #581010;
+}
